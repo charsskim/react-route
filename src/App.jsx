@@ -6,15 +6,16 @@ import Gallery from './components/sub/Gallery';
 import Location from './components/sub/Location';
 import Youtube from './components/sub/Youtube';
 import './scss/style.scss';
+import { Route } from 'react-router-dom';
 export default function App() {
 	return (
 		<div className='wrap'>
 			<Header />
-			<Main />
-			<Department />
-			<Youtube />
-			<Gallery />
-			<Location />
+			<Route exact path='/' component={Main} />
+			<Route path='/department' component={Department} />
+			<Route path='/youtube' component={Youtube} />
+			<Route path='/gallery' component={Gallery} />
+			<Route path='/location' component={Location} />
 			<Footer />
 		</div>
 	);
