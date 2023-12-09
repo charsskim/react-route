@@ -1,7 +1,9 @@
+import Layout from '../common/Layout';
+
 export default function Youtube() {
 	return (
-		<div className='layout Youtube'>
-			<h1>Youtube</h1>
-		</div>
+		<Layout title={'Youtube'}>
+			<p>Youtube Page Content</p>
+		</Layout>
 	);
 }
