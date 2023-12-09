@@ -1,0 +1,15 @@
+.News {
+	width: 80vw;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px auto;
+
+	article {
+		height: 150px;
+		width: 23%;
+		border: 1px solid black;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	}
+}
