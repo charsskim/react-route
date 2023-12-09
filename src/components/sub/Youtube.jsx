@@ -3,7 +3,9 @@ import Layout from '../common/Layout';
 export default function Youtube() {
 	return (
 		<Layout title={'Youtube'}>
-			<p>Youtube Page Content</p>
+			<div className='con'>
+				<p>Youtube Page Content</p>
+			</div>
 		</Layout>
 	);
 }
