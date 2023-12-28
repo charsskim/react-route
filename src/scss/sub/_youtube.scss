@@ -10,5 +10,19 @@
 	.con {
 		width: 70vw;
 		margin: 0px auto;
+		.youtubeFrame {
+			width: 100%;
+			article {
+				width: 100%;
+				.pic {
+					width: 400px;
+					height: 200px;
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
 	}
 }
